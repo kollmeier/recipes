@@ -1,4 +1,7 @@
 {
+  "aliases": [
+    "nmin-base"
+  ],
   "bundles": {
     "Delos\\Nmin\\BaseBundle\\DelosBaseBundle": ["all"]
   },
