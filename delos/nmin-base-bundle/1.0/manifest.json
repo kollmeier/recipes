@@ -1,0 +1,15 @@
+{
+    "aliases": [
+        "nmin-base"
+    ],
+    "bundles": {
+        "Delos\\Nmin\\BaseBundle\\DelosBaseBundle": ["all"]
+    },
+    "copy-from-package": {
+        "Resources/config/routes.yaml": "%CONFIG_DIR%/routes/delos_nmin_base_bundle.yaml",
+        "translations": "%TRANSLATIONS_DIR%"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    }
+}
