@@ -3,7 +3,7 @@
         "nmin-base"
     ],
     "bundles": {
-        "Delos\\Nmin\\BaseBundle\\DelosNminBaseBundle": ["all"]
+        "App\\Delos\\Nmin\\BaseBundle\\DelosNminBaseBundle": ["all"]
     },
     "copy-from-package": {
         "Resources/config/routes.yaml": "%CONFIG_DIR%/routes/delos_nmin_base_bundle.yaml",
