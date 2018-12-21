@@ -3,7 +3,7 @@
         "nmin-data-base"
     ],
     "bundles": {
-        "Delos\\Nmin\\Data\\BaseBundle\\DelosNminDataBaseBundle": ["all"]
+        "App\\Delos\\Nmin\\Data\\BaseBundle\\DelosNminDataBaseBundle": ["all"]
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
