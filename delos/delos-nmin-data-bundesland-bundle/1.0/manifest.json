@@ -1,9 +1,9 @@
 {
     "aliases": [
-        "nmin-data-base"
+        "nmin-data-bundesland"
     ],
     "bundles": {
-        "App\\Delos\\Nmin\\Data\\BaseBundle\\DelosNminDataBaseBundle": ["all"]
+        "Delos\\Nmin\\Data\\BaseBundle\\DelosNminDataBundeslandBundle": ["all"]
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
