@@ -7,7 +7,8 @@
     },
     "copy-from-package": {
         "Resources/config/routes.yaml": "%CONFIG_DIR%/routes/delos_nmin_base_bundle.yaml",
-        "Resources/translations/*": "%TRANSLATIONS_DIR%"
+        "Resources/translations/*": "%TRANSLATIONS_DIR%",
+        "Resources/config/packages.yaml": "%CONFIG_DIR%/packages/delos_nmin_base_bundle.yaml"
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
