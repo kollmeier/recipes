@@ -11,5 +11,6 @@
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
-    }
+    },
+    "post-install-output": true
 }
