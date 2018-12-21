@@ -6,8 +6,8 @@
         "App\\Delos\\Nmin\\Ui\\Web\\BaseBundle\\DelosNminUiWebBaseBundle": ["all"]
     },
     "copy-from-package": {
-        "Resources/assets/": "%ASSETS_DIR%",
-        "Resources/webpack.config.js": "%PROJECT_DIR%/webpack.config.js"
+        "Resources/assets/": "%SRC_DIR%/../assets",
+        "Resources/webpack.config.js": "%SRC_DIR%/../webpack.config.js"
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
