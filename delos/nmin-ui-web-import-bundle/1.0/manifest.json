@@ -5,6 +5,9 @@
     "bundles": {
         "App\\Delos\\Nmin\\Ui\\Web\\ImportBundle\\DelosNminUiWebImportBundle": ["all"]
     },
+    "copy-from-package": {
+        "Resources/config/*": "%CONFIG_DIR%/"
+    },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
     }
