@@ -11,6 +11,6 @@
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd",
-        "nmin-web:install-webpack-config": "symfony-cmd"
+        "nmin:install-webpack-config": "symfony-cmd"
     }
 }
