@@ -1,0 +1,11 @@
+{
+    "aliases": [
+        "nmin-data-bundesland"
+    ],
+    "bundles": {
+        "Delos\\Nmin\\Data\\BaseBundle\\DelosNminDataBundeslandBundle": ["all"]
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    }
+}
