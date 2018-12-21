@@ -1,0 +1,11 @@
+{
+    "aliases": [
+        "nmin-ui-web-base"
+    ],
+    "bundles": {
+        "App\\Delos\\Nmin\\Ui\\Web\\Base\\DelosNminUiWebBaseBundle": ["all"]
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    }
+}
