@@ -6,7 +6,7 @@
         "App\\Delos\\Nmin\\Ui\\Web\\ImportBundle\\DelosNminUiWebImportBundle": ["all"]
     },
     "copy-from-package": {
-        "Resources/config/routes/*": "%CONFIG_DIR%/routes/"
+        "Resources/config/routes/routes.yaml": "%CONFIG_DIR%/routes/delos_nmin_base_bundle.yaml"
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
