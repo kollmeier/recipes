@@ -3,7 +3,7 @@
         "nmin-data-bundesland"
     ],
     "bundles": {
-        "Delos\\Nmin\\Data\\BaseBundle\\DelosNminDataBundeslandBundle": ["all"]
+        "Delos\\Nmin\\Data\\BundeslandBundle\\DelosNminDataBundeslandBundle": ["all"]
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
