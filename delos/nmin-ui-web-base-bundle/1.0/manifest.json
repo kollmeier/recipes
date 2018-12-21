@@ -6,7 +6,7 @@
         "App\\Delos\\Nmin\\Ui\\Web\\BaseBundle\\DelosNminUiWebBaseBundle": ["all"]
     },
     "copy-from-package": {
-        "Resources/assets/": "%SRC_DIR%/../assets",
+        "Resources/assets/*": "%SRC_DIR%/../assets/",
         "Resources/webpack.config.js": "%SRC_DIR%/../webpack.config.js"
     },
     "composer-scripts": {
