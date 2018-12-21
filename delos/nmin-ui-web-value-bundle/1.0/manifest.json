@@ -1,0 +1,11 @@
+{
+    "aliases": [
+        "nmin-ui-web-value"
+    ],
+    "bundles": {
+        "App\\Delos\\Nmin\\Ui\\Web\\ImportBundle\\DelosNminUiWebValueBundle": ["all"]
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    }
+}
