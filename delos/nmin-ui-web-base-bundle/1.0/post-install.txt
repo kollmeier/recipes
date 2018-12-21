@@ -1,0 +1,11 @@
+<bg=blue;fg=white>              </>
+<bg=blue;fg=white> Und jetzt? </>
+<bg=blue;fg=white>              </>
+
+  * Folgende <fg=blue>Kommandos</> aufrufen: :
+    1. Change to the project directory
+    2. Execute the <comment>yarn install</> command;
+    3. Execute the <comment>yarn encore</> or <comment>yarn encore dev</> command;
+    4. Browse to the <comment>http://localhost:8000/</> URL.
+
+  * Die Styles im assets/css directory bearbeiten
