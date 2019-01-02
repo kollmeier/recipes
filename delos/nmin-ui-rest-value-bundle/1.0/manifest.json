@@ -1,0 +1,11 @@
+{
+    "aliases": [
+        "nmin-ui-rest-value"
+    ],
+    "bundles": {
+        "App\\Delos\\Nmin\\Ui\\Rest\\ValueBundle\\DelosNminUiWebValueBundle": ["all"]
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    }
+}
