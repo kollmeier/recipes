@@ -3,7 +3,7 @@
         "nmin-ui-web-value"
     ],
     "bundles": {
-        "App\\Delos\\Nmin\\Ui\\Web\\ImportBundle\\DelosNminUiWebValueBundle": ["all"]
+        "App\\Delos\\Nmin\\Ui\\Web\\ValueBundle\\DelosNminUiWebValueBundle": ["all"]
     },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
