@@ -5,6 +5,9 @@
     "bundles": {
         "App\\Delos\\Nmin\\Ui\\Rest\\ValueBundle\\DelosNminUiWebValueBundle": ["all"]
     },
+    "copy-from-package": {
+        "Resources/config/routes.yaml": "%CONFIG_DIR%/routes/delos_nmin_ui_rest_value.yaml"
+    },
     "composer-scripts": {
         "cache:clear": "symfony-cmd"
     }
